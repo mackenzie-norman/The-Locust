@@ -1,0 +1,8 @@
+Build/
+Index/
+concept_doc0/*
+!concept_doc0/*.tex
+!concept_doc0/*.pdf
+concept_doc1/*
+!concept_doc1/*.tex
+!concept_doc1/*.pdf
