@@ -1,0 +1,23 @@
+\begin{tikzpicture}
+	\begin{pgfonlayer}{nodelayer}
+		\node [style=Plot Point] (7) at (-22.75, 8.25) {Ks Intro};
+		\node [style=Plot Point] (8) at (-19, 5.5) {Entry To Thinking};
+		\node [style=Plot Point] (9) at (-14.25, 11.5) {Eulas Intro};
+		\node [style=Plot Point] (10) at (-14.75, 0) {Daniels Intro};
+		\node [style=Plot Point] (11) at (-5.75, 11.5) {Thinking as Eula};
+		\node [style=Plot Point] (12) at (-6.25, 0) {Thinking as Daniel};
+		\node [style=Plot Point] (15) at (-4.75, 4.25) {};
+	\end{pgfonlayer}
+	\begin{pgfonlayer}{edgelayer}
+		\draw (12) to (15);
+		\draw [style=Directed] (7) to (8);
+		\draw [style=Directed] (7) to (8);
+		\draw [style=Directed] (8) to (10);
+		\draw [style=Directed] (8) to (9);
+		\draw [style=Directed] (12) to (15);
+		\draw [style=Directed] (9) to (11);
+		\draw [style=Directed] (10) to (12);
+		\draw [style=Directed] (12) to (9);
+		\draw [style=Directed] (11) to (10);
+	\end{pgfonlayer}
+\end{tikzpicture}

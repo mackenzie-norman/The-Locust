@@ -78,6 +78,8 @@ Instead of taking a last beer :
 
 thoughtland is a room.
 
+Section Transit
+
 Section Dancing
 
 the entry is a room. 
